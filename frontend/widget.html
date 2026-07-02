@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ava Widget Test Page</title>
+  <style>
+    body { font-family: sans-serif; background: #f5f7fa; padding: 40px; }
+    h1 { color: #1a6faf; }
+    code { background: #eef2f7; padding: 2px 5px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>CareGuruPlus — Ava Widget Test</h1>
+  <p>Click the chat bubble in the bottom-right corner to open Ava.</p>
+  <p>Local backend default: <code>http://localhost:3000/chat</code></p>
+
+  <link rel="stylesheet" href="widget.css" />
+
+  <!-- After Vercel deployment, uncomment this and paste your deployed backend URL. -->
+  <!--
+  <script>
+    window.AVA_API_URL = "https://YOUR-PROJECT.vercel.app/chat";
+  </script>
+  -->
+
+  <script src="widget.js"></script>
+</body>
+</html>
